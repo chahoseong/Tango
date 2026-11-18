@@ -79,6 +79,7 @@ DerivedDataCache/*
 .idea/
 .vscode/
 *.sln.DotSettings.user
+Plugins/Developer/RiderLink/
 
 # OS generated files
 Thumbs.db
