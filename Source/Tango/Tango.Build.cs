@@ -7,6 +7,10 @@ public class Tango : ModuleRules
 	public Tango(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
+		
+		PublicIncludePaths.AddRange([
+			ModuleDirectory
+		]);
 	
 		PublicDependencyModuleNames.AddRange([
 			"Core",
